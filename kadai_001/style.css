@@ -1,0 +1,27 @@
+body {
+    font-size: 6em;
+    text-align: center;
+}
+.count {
+    margin: 0;
+    font-weight: bold;
+    color: rgba(255, 0, 0, 0.546);
+}
+
+/* テキスト通常時表示される */
+.wrap {
+    margin-top: 20px;
+    padding: 80px 40px;
+    background-color: #FF77FF;
+    font-weight: bold;
+    color: #fff;
+}
+/* 成功した時に表示される */
+.typed {
+   color: #FFFF00;
+ }
+
+/* ミスタイプした場合に表示される */
+ .mistyped {
+   background-color: red;
+ }
